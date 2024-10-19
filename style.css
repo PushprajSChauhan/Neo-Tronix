@@ -1,0 +1,26 @@
+.navbar-custom{
+    background-color: #a2ffad;
+}
+
+.navbar-brand{
+    font-size: 24px;
+    color: rgb(2, 121, 0);
+}
+
+.navbar-brand:hover{
+    cursor: pointer;
+    color: rgb(0, 50, 97);
+}
+
+.navbar-custom, .navbar-custom .nav-link{
+    color: rgb(53, 110, 0);
+    font-size: 20px;
+}
+
+.navbar-custom .nav-link:hover{
+    color: rgb(0, 50, 97);
+}
+
+.myform{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
