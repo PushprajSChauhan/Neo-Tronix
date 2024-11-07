@@ -406,6 +406,29 @@ public class ProductDAOImpl implements ProductDAO{
     
     @Override
     public String removeProduct(String prodId){
+        String status="Product removal failed!";
+        Connection conn=DBUtil.provideConnection();
+        PreparedStatement ps1=null,ps2=null;
+//        One preparedStatement is for updating status in DB, and another is for removing product from user's cart
+        try{
+            ps1=conn.prepareStatement("update products set available='N' where pid=?");
+            ps1.setString(1, prodId);
+            int count=ps1.executeUpdate();
+            if(count>0){
+                status="Product removed successfully";
+                ps2=conn.prepareStatement("delete from usercart where prodid=?");
+                ps2.setString(1,prodId);
+                count=ps2.executeUpdate();
+            }
+        }
+        catch(SQLException ex){
+            status="Error: "+ex.getMessage();
+            System.out.println("Error in removeProduct "+ex);
+            ex.printStackTrace();
+        }
         
+        DBUtil.closeStatement(ps1);
+        DBUtil.closeStatement(ps2);
+        return status;
     }
 }
