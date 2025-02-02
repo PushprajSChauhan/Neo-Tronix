@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&display=swap');
+
+body {
+  background-color: #0a1828;
+  color:white;
+}
+
+hr {
+  color: gold;
+}
+
+h1.gold-text {
+  color: gold;
+  font-family: "Forum",serif;
+}
+
+p.teal-text {
+  color: #30d5c8;
+  font-family: "Pridi",serif;
+}
+
+i.teal-icon {
+  color: #30d5c8;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+.send-button {
+  border: none;
+}
+
+.send-button:hover{
+  background-color: gold;
+  color: #0a1828;
+}
+
+p.m-4{
+  font-family: "Pridi",serif;
+}

@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  background-color: #0a1828;
+}
+
+a {
+  text-decoration: none;
+}
+
+th,
+td {
+  text-align: center;
+}
+
+th {
+  font-family: "Inter", serif;
+}
+
+.no-items {
+  font-style: italic;
+  color: #6c757d;
+}

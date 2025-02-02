@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+  background-color: #0a1828;
+}
+
+h2 {
+  font-family: "Lexend Deca",serif;
+}
+
+.table-responsive {
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  font-family: "Inter",serif;
+}
+
+input[type="number"] {
+  width: 5rem;
+}
+
+input[type="number"]:focus {
+  outline: none;
+  border-color: #38bdf8;
+  box-shadow: 0 0 5px #38bdf8;
+}
