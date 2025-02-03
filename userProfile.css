@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    background-color: #0a1828; 
+}
+
+.card-body {
+    color: white;
+    background-color: #334155;
+    border: 1px solid #48fffd;
+    border-radius: 5px;
+}
+
+.card-body h4, h5 {
+    color: gold;
+    font-family: "Lexend Deca",serif;
+}
+
+.card img {
+    border-radius: 50%;
+    border: 3px solid #38bdf8; 
+}
+
+.field {
+    color: #30d0c8;
+    font-family: "Inter",serif;
+}
+
+.extra{
+    margin: 0.9rem;
+}
+
+.value{
+    color:whitesmoke;
+}

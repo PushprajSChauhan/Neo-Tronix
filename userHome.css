@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    background-color: #0a1828;
+    font-family: Arial, sans-serif;
+}
+
+.price, .productname {
+    color: #38bdf8;
+    font-size: 1.2rem;
+    font-family: "Inter",serif;
+}
+
+.box {
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.box img {
+    max-width: 180px;
+    height:150px;
+}
+
+.box p {
+    margin: 10px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+h2{
+    font-family: "Lexend Deca",serif;
+}
+
+.productinfo{
+    color:#d1d5db;
+}
